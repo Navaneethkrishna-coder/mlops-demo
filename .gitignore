@@ -1,0 +1,67 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# MLflow tracking database
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+
+# Model artifacts and generated models
+artifacts/
+models/
+*.pkl
+*.pickle
+*.joblib
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Logs
+*.log
+logs/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
